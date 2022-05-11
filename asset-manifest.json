@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/covID/static/css/main.4ba05e70.css",
+    "main.js": "/covID/static/js/main.c3e53209.js",
+    "index.html": "/covID/index.html",
+    "main.4ba05e70.css.map": "/covID/static/css/main.4ba05e70.css.map",
+    "main.c3e53209.js.map": "/covID/static/js/main.c3e53209.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba05e70.css",
+    "static/js/main.c3e53209.js"
+  ]
+}
