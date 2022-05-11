@@ -45,7 +45,9 @@ const Statistics = () =>{
              <div className="select">
                 <select onChange={(e)=>{selectCountry(e)}} >
 
-                <option defaultValue={country} >{country}</option>
+                <option defaultValue={country} >
+                 {!country ? "Kyrgyzstan" : country}
+                </option>
                    {
                        countries.map((item,index)=>{
 

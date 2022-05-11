@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const getStatistics = (country="Kyrgyzstan") => async dispatch =>{
-    await axios.get('https://api.covid19api.com/total/dayone/country/'+country)
+export const getStatistics = (country) => async dispatch =>{
+    await axios.get(`https://api.covid19api.com/total/dayone/country/${country ? country : 'Kyrgyzstan'}`)
     .then((res)=>{
         console.log(res,'redux')
         dispatch({
