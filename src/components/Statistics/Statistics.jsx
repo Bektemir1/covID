@@ -8,7 +8,7 @@ import { getStatistics,getCountries } from '../../redux/statistics-action';
 const Statistics = () =>{
 
     // country comes from localStorage
-    const [country,setCountry] = useState(JSON.parse(localStorage.getItem('country')))
+    const [country,setCountry] = useState(JSON.parse(localStorage.getItem('country')) || "Kyrgyzstan")
 
     // Get all data from state
 
@@ -43,15 +43,13 @@ const Statistics = () =>{
          
            
              <div className="select">
-                <select onChange={(e)=>{selectCountry(e)}} >
+                <select value={country} onChange={(e)=>{selectCountry(e)}} >
 
-                <option defaultValue={country} >
-                 {!country ? "Kyrgyzstan" : country}
-                </option>
+               
                    {
                        countries.map((item,index)=>{
-
-                           return <option key={index} value={item.Country}>{item.Country}</option>
+                            
+                           return <option  key={index} value={item.Country}>{item.Country}</option>
                        })
                    }
                 </select>
