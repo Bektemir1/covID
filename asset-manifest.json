@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/covID/static/css/main.4ba05e70.css",
+    "main.css": "/covID/static/css/main.8f1e1ecc.css",
     "main.js": "/covID/static/js/main.838c67c0.js",
     "index.html": "/covID/index.html",
-    "main.4ba05e70.css.map": "/covID/static/css/main.4ba05e70.css.map",
+    "main.8f1e1ecc.css.map": "/covID/static/css/main.8f1e1ecc.css.map",
     "main.838c67c0.js.map": "/covID/static/js/main.838c67c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba05e70.css",
+    "static/css/main.8f1e1ecc.css",
     "static/js/main.838c67c0.js"
   ]
 }
