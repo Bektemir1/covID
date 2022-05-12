@@ -35,3 +35,11 @@
     font-size: 20px;
     font-weight: 500;
 }
+@media(max-width:576px){
+    .statistics-item__detail{
+        flex-direction: column;
+    }
+   .statistics-item__info{
+       width: 100%;
+   }
+}
